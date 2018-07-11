@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/globycoin_bg.qm</file>
+        <file alias="ca">locale/globycoin_ca.qm</file>
+        <file alias="cs">locale/globycoin_cs.qm</file>
+        <file alias="da">locale/globycoin_da.qm</file>
+        <file alias="de">locale/globycoin_de.qm</file>
+        <file alias="en">locale/globycoin_en.qm</file>
+        <file alias="en_US">locale/globycoin_en_US.qm</file>
+        <file alias="es">locale/globycoin_es.qm</file>
+        <file alias="fi">locale/globycoin_fi.qm</file>
+        <file alias="fr_FR">locale/globycoin_fr_FR.qm</file>
+        <file alias="hr">locale/globycoin_hr.qm</file>
+        <file alias="it">locale/globycoin_it.qm</file>
+        <file alias="ja">locale/globycoin_ja.qm</file>
+        <file alias="ko_KR">locale/globycoin_ko_KR.qm</file>
+        <file alias="nl">locale/globycoin_nl.qm</file>
+        <file alias="pl">locale/globycoin_pl.qm</file>
+        <file alias="pt">locale/globycoin_pt.qm</file>
+        <file alias="pt_BR">locale/globycoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/globycoin_ro_RO.qm</file>
+        <file alias="ru">locale/globycoin_ru.qm</file>
+        <file alias="sk">locale/globycoin_sk.qm</file>
+        <file alias="sv">locale/globycoin_sv.qm</file>
+        <file alias="tr">locale/globycoin_tr.qm</file>
+        <file alias="uk">locale/globycoin_uk.qm</file>
+        <file alias="zh_CN">locale/globycoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/globycoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

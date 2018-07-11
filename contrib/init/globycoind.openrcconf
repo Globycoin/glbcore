@@ -1,0 +1,26 @@
+# /etc/conf.d/globycoind: config file for /etc/init.d/globycoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/globycoin/globycoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/globycoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/globycoind.pid"
+
+# Where to write globycoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/globycoind"
+
+# User and group to own globycoind process
+#BITCOIND_USER="globycoin"
+#BITCOIND_GROUP="globycoin"
+
+# Path to globycoind executable
+#BITCOIND_BIN="/usr/bin/globycoind"
+
+# Nice value to run globycoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

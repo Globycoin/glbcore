@@ -1,0 +1,26 @@
+[Unit]
+Description=Globycoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=globycoin
+Group=globycoin
+
+Type=forking
+PIDFile=/var/lib/globycoind/globycoind.pid
+
+ExecStart=/usr/bin/globycoind -daemon -pid=/var/lib/globycoind/globycoind.pid \
+          -conf=/etc/globycoin/globycoin.conf -datadir=/var/lib/globycoind
+
+ExecStop=-/usr/bin/globycoin-cli -conf=/etc/globycoin/globycoin.conf \
+         -datadir=/var/lib/globycoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

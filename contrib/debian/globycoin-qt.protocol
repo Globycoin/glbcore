@@ -1,0 +1,11 @@
+[Protocol]
+exec=globycoin-qt '%u'
+protocol=globycoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

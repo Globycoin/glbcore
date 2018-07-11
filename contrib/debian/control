@@ -1,0 +1,58 @@
+Source: globycoin
+Section: utils
+Priority: optional
+Maintainer: Jonas Smedegaard <dr@jones.dk> ***TODO***
+Uploaders: Micah Anderson <micah@debian.org> ***TODO***
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ bash-completion,
+ libboost-system-dev (>> 1.35) | libboost-system1.35-dev,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libminiupnpc8-dev,
+ libboost-filesystem-dev (>> 1.35) | libboost-filesystem1.35-dev,
+ libboost-program-options-dev (>> 1.35) | libboost-program-options1.35-dev,
+ libboost-thread-dev (>> 1.35) | libboost-thread1.35-dev,
+ libboost-test-dev (>> 1.35) | libboost-test1.35-dev,
+ qt4-qmake,
+ libqt4-dev,
+ libqrencode-dev,
+ libprotobuf-dev, protobuf-compiler
+Standards-Version: 3.9.2
+Homepage: http://www.globycoin.org
+Vcs-Git: git://github.com/globycoinproject/Globycoin.git
+Vcs-Browser: http://github.com/globycoinproject/Globycoin
+
+Package: globycoind
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ Globycoin is a free open source peer-to-peer electronic cash system that
+ is completely decentralized, without the need for a central server or
+ trusted parties.  Users hold the crypto keys to their own money and
+ transact directly with each other, with the help of a P2P network to
+ check for double-spending.
+ .
+ Full transaction history is stored locally at each client.  This
+ requires 1+ GB of space, slowly growing.
+ .
+ This package provides the daemon, globycoind, and the CLI tool
+ globycoin-cli to interact with the daemon.
+
+Package: globycoin-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ Globycoin is a free open source peer-to-peer electronic cash system that
+ is completely decentralized, without the need for a central server or
+ trusted parties.  Users hold the crypto keys to their own money and
+ transact directly with each other, with the help of a P2P network to
+ check for double-spending.
+ .
+ Full transaction history is stored locally at each client.  This
+ requires 1+ GB of space, slowly growing.
+ .
+ This package provides Globycoin-Qt, a GUI for Globycoin based on Qt.

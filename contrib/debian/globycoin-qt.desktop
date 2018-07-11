@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Globycoin
+Comment=Globycoin P2P Cryptocurrency
+Comment[fr]=Globycoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Globycoin, eşten eşe kriptografik sanal para birimi
+Exec=globycoin-qt %u
+Terminal=false
+Type=Application
+Icon=globycoin128
+MimeType=x-scheme-handler/globycoin;
+Categories=Office;Finance;
