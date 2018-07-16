@@ -1,6 +1,6 @@
 GLOBYCOIN
 
-1.0.0 - First official release 
+1.0.0.0 - First official release 
 
 Web : https://globycoin.org
 
