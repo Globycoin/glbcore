@@ -4,7 +4,7 @@ GLOBYCOIN
 
 Web : https://globycoin.org
 
-explorer : http://77.55.238.25/
+explorer : https://globycoinexplorer.com
 
 telegram : https://t.me/globycoin
 
@@ -12,7 +12,7 @@ bitcointalk :  https://bitcointalk.org/index.php?topic=4623795.0
 
 twitter : https://twitter.com/globycoin
 
-discord : https://discordapp.com/invite/uJtwZFK
+discord : https://discord.gg/bE5yubp
 
 facebook : https://www.facebook.com/Globycoin
 
