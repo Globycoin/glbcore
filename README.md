@@ -16,7 +16,7 @@ discord : https://discord.gg/bE5yubp
 
 facebook : https://www.facebook.com/Globycoin
 
-youtube : https://www.youtube.com/channel/UCZDXHp0ik3Tq_xCPXulHMLw
+youtube : https://www.youtube.com/channel/UC8DWGsoPW6LiCDxFrEzydsQ
 
 reddit : https://www.reddit.com/user/Globycoin
 
