@@ -2130,30 +2130,32 @@ int64_t GetBlockValue(int nHeight)
         nSubsidy = 500000000 * COIN;  //premine
     } else if(nHeight >=1 && nHeight <= 2000) { //PoW phase
 		nSubsidy = 1 * COIN;
-    } else if(nHeight >2000 && nHeight <= 250000) { //PoS phase
+    } else if(nHeight >2000 && nHeight <= 70000) { //PoS phase
 		nSubsidy = 777 * COIN;
+    } else if(nHeight >70000 && nHeight <= 250000) { //PoS phase
+		nSubsidy = 400 * COIN;
     } else if(nHeight >250000 && nHeight <= 500000) { //PoS phase
-		nSubsidy = 738 * COIN;
+		nSubsidy = 380 * COIN;
     } else if(nHeight > 500000 && nHeight <= 750000) { //PoS phase
-		nSubsidy = 700 * COIN; 
+		nSubsidy = 360 * COIN; 
     } else if(nHeight > 750000 && nHeight <= 1000000) {
-		nSubsidy = 660 * COIN;
+		nSubsidy = 340 * COIN;
     } else if(nHeight > 1000000 && nHeight <= 1250000) { 
-		nSubsidy = 621 * COIN;
+		nSubsidy = 320 * COIN;
     } else if(nHeight > 1250000 && nHeight <= 1500000) { 
-		nSubsidy = 582 * COIN;
+		nSubsidy = 300 * COIN;
     } else if(nHeight > 1500000 && nHeight <= 1750000) { 
-		nSubsidy = 543 * COIN;
+		nSubsidy = 280 * COIN;
     } else if(nHeight > 1750000 && nHeight <= 2000000) { 
-		nSubsidy = 505 * COIN;
+		nSubsidy = 260 * COIN;
     } else if(nHeight > 2000000 && nHeight <= 2250000) { 
-		nSubsidy = 466 * COIN;
+		nSubsidy = 240 * COIN;
     } else if(nHeight > 2250000 && nHeight <= 2500000) { 
-		nSubsidy = 427 * COIN;
+		nSubsidy = 220 * COIN;
     } else if(nHeight > 2500000) { 
-		nSubsidy = 388 * COIN;
+		nSubsidy = 200 * COIN;
     } else {
-        nSubsidy = 388 * COIN;
+        nSubsidy = 200 * COIN;
     }
     return nSubsidy;
 }
