@@ -24,3 +24,7 @@ github : https://github.com/Globycoin/glbcore
 
 email : info@globycoin.org
 
+steemit : https://steemit.com/@globycoin
+
+whitepaper : https://www.globycoin.org/whitepaper/whitepaper.pdf
+
