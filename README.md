@@ -29,6 +29,7 @@ steemit : https://steemit.com/@globycoin
 whitepaper : https://www.globycoin.org/whitepaper/whitepaper.pdf
 
 nodes:
+
 204.16.247.50
 
 80.211.215.28
