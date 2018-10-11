@@ -30,9 +30,14 @@ whitepaper : https://www.globycoin.org/whitepaper/whitepaper.pdf
 
 nodes:
 204.16.247.50
+
 80.211.215.28
+
 149.28.149.6
+
 5.196.157.9
+
 194.182.75.151
+
 185.58.224.151
 
