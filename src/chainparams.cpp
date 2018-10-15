@@ -244,9 +244,11 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("seed1", "185.28.100.61"));
-        vSeeds.push_back(CDNSSeedData("seed2", "80.211.215.180"));
-        vSeeds.push_back(CDNSSeedData("seed3", "80.211.219.227"));
+        vSeeds.push_back(CDNSSeedData("seed1", "173.212.252.103"));
+        vSeeds.push_back(CDNSSeedData("seed2", "5.196.157.9"));
+        vSeeds.push_back(CDNSSeedData("seed3", "207.180.220.146"));
+        vSeeds.push_back(CDNSSeedData("seed4", "185.58.224.151"));
+        vSeeds.push_back(CDNSSeedData("seed5", "5.135.175.180"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet Globycoin addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet Globycoin script addresses start with '8' or '9'
