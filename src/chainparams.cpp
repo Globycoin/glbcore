@@ -152,9 +152,9 @@ public:
         assert(hashGenesisBlock == uint256("0x6807b9f4376e443b065083609b9bc4107860554cdf6be93918997f5e0c7022da"));
         assert(genesis.hashMerkleRoot == uint256("0x05ae9c76b37cf6b211c3f8cc874c08f2abd67d5c032e9662d9884c075fc74adb"));
 
-        vSeeds.push_back(CDNSSeedData("seed1", "185.28.100.61"));
-        vSeeds.push_back(CDNSSeedData("seed2", "80.211.215.180"));
-        vSeeds.push_back(CDNSSeedData("seed3", "80.211.219.227"));
+        vSeeds.push_back(CDNSSeedData("seed1", "173.212.252.103"));
+        vSeeds.push_back(CDNSSeedData("seed2", "5.196.157.9"));
+        vSeeds.push_back(CDNSSeedData("seed3", "207.180.220.146"));
         vSeeds.push_back(CDNSSeedData("seed4", "185.58.224.151"));
         vSeeds.push_back(CDNSSeedData("seed5", "5.135.175.180"));
 
