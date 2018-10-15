@@ -1,0 +1,2 @@
+#define BUILD_SUFFIX core
+#define BUILD_DATE "2018-07-04 06:18:02 -0400"
