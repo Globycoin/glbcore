@@ -54,8 +54,13 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (     0, uint256("0x6807b9f4376e443b065083609b9bc4107860554cdf6be93918997f5e0c7022da"));
-
+    (     0, uint256("0x6807b9f4376e443b065083609b9bc4107860554cdf6be93918997f5e0c7022da"))
+    (    30000, uint256("0xb87d0141d439cbe7ce4f3323390ee7feb9c635178de3b703f534ebfd885f51d3"))
+    (    50000, uint256("0x05f6f0028758a1852660462e8c99b2cda2880dd688eda9a05e9e31b1447b006c"))
+    (    80000, uint256("0x88b33a8a196831705640109cfc2b31ef66cf333977a1a61b7d7c9ab50134a0e6"))
+    (    100000, uint256("0x561ed3162bfe67526c04bae9734483fce2c18db91c413f90e005d18f52c69ccd"))
+    (    140000, uint256("0xb4d5c64ee90e88468e2b53e91081143e107a12b933a6ef639087a39f2b1b4c19"))
+    (    170000, uint256("0x2bdd364bfce4235e0b629117f72b976334c990a66b5fd89f2402339f96983d69"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1531134583, // * UNIX timestamp of last checkpoint block
@@ -187,7 +192,7 @@ public:
 
         nPoolMaxTransactions = 3;
         strSporkKey = "04ee2826c4629cd948feb23a59f1142c8cb5914311a92161a3542d861aaffe8eab4184a0a29ded1d555b23d93a754e28687d82856ffb3b19fd7d109f5e7297fdf3";
-        strObfuscationPoolDummyAddress = "XJUq47KtCqh7X54cqcWVZ2R3SVEFAbKHye";
+        strObfuscationPoolDummyAddress = "GUfZYRDqVaXbPxHCVv89NKPmSiBoPJYNP4";
         nStartMasternodePayments = 1529203666;
 
         /** Zerocoin */

@@ -21,9 +21,12 @@
 #define MASTERNODE_EXPIRATION_SECONDS (120 * 60)
 #define MASTERNODE_REMOVAL_SECONDS (130 * 60)
 #define MASTERNODE_CHECK_SECONDS 5
+#define MASTERNODE_PORT 23500
 #define MASTERNODE_COLLATERAL (150000 * COIN)
 #define MASTERNODE_COLLATERAL_LIMIT (MASTERNODE_COLLATERAL - 0.01 * COIN)
-#define MASTERNODE_PORT 25000
+
+
+
 
 using namespace std;
 
@@ -31,6 +34,8 @@ class CMasternode;
 class CMasternodeBroadcast;
 class CMasternodePing;
 extern map<int64_t, uint256> mapCacheBlockHashes;
+
+
 
 bool GetBlockHash(uint256& hash, int nBlockHeight);
 

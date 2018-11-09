@@ -11,9 +11,7 @@
 #include "protocol.h"
 #include "spork.h"
 
-//
-// Bootup the Masternode, look for a 10000 ART input and register on the network
-//
+
 void CActiveMasternode::ManageStatus()
 {
     std::string errorMessage;
@@ -472,7 +470,8 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
 
     // Filter
     BOOST_FOREACH (const COutput& out, vCoins) {
-        if (out.tx->vout[out.i].nValue == MASTERNODE_COLLATERAL) { //exactly
+      //  if (out.tx->vout[out.i].nValue == MASTERNODE_COLLATERAL(chainActive.Height()) * COIN) {
+       if (out.tx->vout[out.i].nValue == MASTERNODE_COLLATERAL) {
             filteredCoins.push_back(out);
         }
     }
