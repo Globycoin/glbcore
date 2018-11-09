@@ -72,6 +72,9 @@
        </item>
        <item row="2" column="1">
         <widget class="QLabel" name="clientVersion">
+     <property name="visible">
+      <bool>false</bool>
+     </property>
          <property name="cursor">
           <cursorShape>IBeamCursor</cursorShape>
          </property>
@@ -83,6 +86,13 @@
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+         </property>
+        </widget>
+       </item>
+ <item row="2" column="1">
+        <widget class="QLabel" name="clientNameLabel2">
+         <property name="text">
+          <string>2.1.1.1-core</string>
          </property>
         </widget>
        </item>
