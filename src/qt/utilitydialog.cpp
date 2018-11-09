@@ -38,11 +38,7 @@ HelpMessageDialog::HelpMessageDialog(QWidget* parent, bool about) : QDialog(pare
 /* On x86 add a bit specifier to the version so that users can distinguish between
      * 32 and 64 bit builds. On other architectures, 32/64 bit may be more ambigious.
      */
-#if defined(__x86_64__)
-    version += " " + tr("(%1-bit)").arg(64);
-#elif defined(__i386__)
-    version += " " + tr("(%1-bit)").arg(32);
-#endif
+
 
     if (about) {
         setWindowTitle(tr("About Globycoin Core"));
