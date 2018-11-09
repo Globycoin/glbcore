@@ -1,7 +1,5 @@
 GLOBYCOIN
 
-1.0.0.0 - First official release 
-
 Web : https://globycoin.org
 
 explorer : https://globycoinexplorer.com
@@ -27,22 +25,4 @@ email : info@globycoin.org
 steemit : https://steemit.com/@globycoin
 
 whitepaper : https://www.globycoin.org/whitepaper/whitepaper.pdf
-
-nodes:
-
-204.16.247.50
-
-80.211.215.28
-
-149.28.149.6
-
-5.196.157.9
-
-194.182.75.151
-
-185.58.224.151
-
-188.243.244.234
-
-185.28.100.61
 
