@@ -114,7 +114,7 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     /* Open CSS when configured */
     this->setStyleSheet(GUIUtil::loadStyleSheet());
 
-    GUIUtil::restoreWindowGeometry("nWindow", QSize(650, 450), this);
+    GUIUtil::restoreWindowGeometry("nWindow", QSize(1000, 650), this);
 
     QString windowTitle = tr("Globycoin Core") + " - ";
 #ifdef ENABLE_WALLET
