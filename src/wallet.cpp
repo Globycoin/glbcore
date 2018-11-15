@@ -1625,15 +1625,12 @@ void CWallet::AvailableCoins(vector<COutput>& vCoins, bool fOnlyConfirmed, const
                 if (nCoinType == ONLY_DENOMINATED) {
                     found = IsDenominatedAmount(pcoin->vout[i].nValue);
                 } else if (nCoinType == ONLY_NOT10000IFMN) {
-                    //found = !(fMasterNode && pcoin->vout[i].nValue == MASTERNODE_COLLATERAL(chainActive.Height()) * COIN);
                     found = !(fMasterNode && pcoin->vout[i].nValue == MASTERNODE_COLLATERAL);
                 } else if (nCoinType == ONLY_NONDENOMINATED_NOT10000IFMN) {
                     if (IsCollateralAmount(pcoin->vout[i].nValue)) continue; // do not use collateral amounts
                     found = !IsDenominatedAmount(pcoin->vout[i].nValue);
-                 //   if (found && fMasterNode) found = pcoin->vout[i].nValue != MASTERNODE_COLLATERAL(chainActive.Height()) * COIN; 
- 	 if (found && fMasterNode) found = pcoin->vout[i].nValue != MASTERNODE_COLLATERAL; 
+	 if (found && fMasterNode) found = pcoin->vout[i].nValue != MASTERNODE_COLLATERAL; 
                 } else if (nCoinType == ONLY_10000) {
-                 //   found = pcoin->vout[i].nValue == MASTERNODE_COLLATERAL(chainActive.Height()) * COIN;
    	found = pcoin->vout[i].nValue == MASTERNODE_COLLATERAL;
                 } else {
                     found = true;
